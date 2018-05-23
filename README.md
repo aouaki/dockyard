@@ -50,7 +50,7 @@ network-mode: host
 - On your local machine, using a web browser, go to `localhost:32400` and follow the instructions
 
 
-### Transmission
+### Transmission setup
 
 We use [Transmission](https://transmissionbt.com/) as the downloader.
 
@@ -58,8 +58,11 @@ We use [Transmission](https://transmissionbt.com/) as the downloader.
 - configure basic auth at `media/transmission/config/settings.json` (you will need to touch `rpc-authentication-required`, `rpc-username` and `rpc-password`)
 - start transmission's container
 
+### Jackett setup
 
-### Sonarr
+TODO
+
+### Sonarr setup
 
 We use [Sonarr](https://sonarr.tv/) to track and manage TV shows.
 
@@ -67,14 +70,17 @@ We use [Sonarr](https://sonarr.tv/) to track and manage TV shows.
 - connect transmission as a downloader
 
 
-### Radarr
+### Radarr setup
 
 We use [Radarr](https://radarr.video/) (a clone of Sonarr) to track and manage movies.
 
 - setup auto-update and authentication
 - connect transmission as a downloader
 
+### Plexpy setup
 
-### Jackett
+TODO
 
-We use [Jackett](https://github.com/Jackett/Jackett) as a proxy between private trackers and our other components.
+### Ombi setup
+
+TODO
